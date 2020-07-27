@@ -1,0 +1,156 @@
+.color-btn{
+    background-color: whitesmoke;
+}
+.color-333{
+    color: #333333;
+}
+.color-999{
+    color: #999999;
+}
+.color-fff{
+    background-color: white;
+}
+.bgc-b7{
+    background-color: #f7f7f7;
+}
+.bgc-b7 input{
+    width: 244px;height: 36px;
+    border: 1px solid #999999;
+    outline: none;
+    border-radius: 20px;
+    padding-left: 12px;
+    font-size: 12px;
+}
+.w-1100{
+    width: 1100px;
+}
+.font-size-12{
+    font-size: 12px;
+}
+#left{
+    width: 767px;
+}
+.w354{
+    width: 354px;
+}
+.w767{
+    width: 767px;
+}
+.w270h135{
+    width: 270px;
+    height: 135px;
+    overflow: hidden;
+}
+.w270h135 img{
+    position: absolute;
+    width: 100%;
+}
+#left img{
+    z-index: 1000;
+    position: absolute;
+    top: 31px;
+    right: 36px;
+}
+#firm a:hover{
+    background-color: #fff;
+    color: #de2c2e;
+}
+.line-height-24{
+    line-height: 24px;
+}
+.more{
+    display: block;
+    color: #999999;
+}
+/* 过度效果 */
+.new-img,.new-text,.text-right,.more-btn{
+	transition: 1s;
+}
+#new-one:hover img{
+	transform: scale(1.1);
+}
+#new-one:hover .new-text{
+    transform: translate(5px);
+}
+#new-one:hover .text-right{
+    transform: translate(-5px);
+}
+#new-one:hover .more-btn{
+    background-color: #de2c2e;
+    color: whitesmoke;
+    transform: translate(-5px);
+}
+/* 过度结束 */
+/* 分页 */
+.margin-auto{
+    margin: 0 auto;
+}
+.page-link{
+    color: #999999;
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.page-link:hover{
+    color: #fff;
+    background-color: #de2c2e;
+}
+.ml-296{
+    margin-left: 296px !important;
+}
+#fenye .active{
+    color: #fff;
+    background-color: #de2c2e;
+}
+/* 分页结束 */
+.new-img1{
+    width: 303px;
+    height: 240px;
+    margin-left: 5px;
+}
+.new-img-text{
+    width: 233px;
+}
+.w-12{
+    width: 12%;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.text-overflow-ellipsis{
+    padding: 5px 5px;
+    white-space: nowrap;      /*超出的空白区域不换行*/
+	overflow: hidden;         /*超出隐藏*/
+	text-overflow: ellipsis;  /*文本超出显示省略号*/
+ }
+.d1{
+   position: absolute; 
+   top: 177px;
+   right: 14px;
+}
+/* 右侧过度效果 */
+#aa,#dd{
+    transition: 2s;
+}
+#aa:hover{
+    background-color: #de2c2e !important;
+    cursor:pointer;
+}
+#aa:hover p{
+    color: white;
+}
+#aa:hover #bb{
+    display: none;
+}
+#aa:hover p{
+    width: 300px;
+}
+#aa:hover .pt{
+    padding-top: 88px !important;
+}
+#aa:hover .text-h{
+    white-space:normal;
+    height: 50px;
+}
+/* 右侧过度效果结束 */

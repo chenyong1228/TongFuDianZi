@@ -1,0 +1,24 @@
+.color-3{
+    color: #333333;
+}
+ol li a:hover{
+    text-decoration: none;
+    color: #333333;
+}
+.w-769{
+    width: 769px;
+}
+
+/* 文件下载 */
+.w-60{
+    width: 60%;
+}
+.w-16{
+    width: 16%;
+}
+.line-height-36{
+    line-height: 36.84px;
+}
+#xiazai a:hover{
+    color: #333333;
+}
